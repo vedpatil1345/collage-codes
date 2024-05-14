@@ -13,7 +13,7 @@ class ATMGUI extends JFrame {
     public ATMGUI(double initialBalance) {
         account = new BankAccount(initialBalance);
         setTitle("ATM Machine");
-        setSize(300, 200);
+        setSize(500, 400);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         initComponents();
