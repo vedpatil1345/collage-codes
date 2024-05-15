@@ -5,7 +5,6 @@ import java.awt.event.ActionListener;
 import java.text.DecimalFormat;
 
 class ATMGUI extends JFrame {
-    private static final long serialVersionUID = 1L;
     private BankAccount account;
     private JLabel balanceLabel;
     private JTextField amountField;
