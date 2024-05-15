@@ -12,7 +12,7 @@ class ATMGUI extends JFrame {
     public ATMGUI(double initialBalance) {
         account = new BankAccount(initialBalance);
         setTitle("ATM Machine");
-        setSize(500, 400);
+        setSize(500, 200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         initComponents();
@@ -97,14 +97,12 @@ class ATMGUI extends JFrame {
     }
 
     private class WithdrawActionListener implements ActionListener {
-        @Override
         public void actionPerformed(ActionEvent e) {
             withdraw();
         }
     }
 
     private class DepositActionListener implements ActionListener {
-        @Override
         public void actionPerformed(ActionEvent e) {
             deposit();
         }
