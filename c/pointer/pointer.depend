@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1678698691 source:c:\users\student\documents\ved patil 1ce3\pointer\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1678698897 source:c:\users\student\documents\ved patil 1ce3\pointer\array pointer.c
+	<stdio.h>
+	<conio.h>
+
